@@ -1,0 +1,4 @@
+
+Application   :: ${spring.application.name} (http://${server.address:localhost}:${server.port}${server.context-path})
+Profile       :: ${spring.profiles.active}
+Log directory :: ${LOG_PATH}
